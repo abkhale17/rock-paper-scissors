@@ -1,24 +1,18 @@
 body {
+	display: block;
 		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h1 {
+	display: block;
 	margin-left: 40px;
 }
 
 #root {
-	position: absolute;
-    top: 22%;
-    left: 37.5%;
+	display: block;
+	margin: 120px auto;
+	width: 476px;
+}
 
-}
-@media only screen and (max-width: 494px){
-    #root {
-        
-        position: absolute;
-		top: 22%;
-			left: 30%;
-    }
-}
 #series,#round{
 	color:#000;
 	text-align: center;
